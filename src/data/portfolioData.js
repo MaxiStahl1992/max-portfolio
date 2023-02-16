@@ -1,5 +1,12 @@
 export const portfolioData = [
     {
+        cover: "/portfolio/1/codex.png",
+        name: "Codex - Open AI Chat App",
+        description: "Vite - Vanilla JS - Open AI - Express - Node.js",
+        url: "https://codex-ai-plum.vercel.app/",
+        linkGit: "https://github.com/MaxiStahl1992/codex-ai"
+    },
+    {
         cover: "/portfolio/1/Yariga.png",
         name: "Yriga - A Real Estate App",
         description: "MERN - MongoDB, Express, React, Node.js - A work in progress",
