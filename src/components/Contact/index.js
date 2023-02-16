@@ -22,12 +22,11 @@ const Contact = () => {
     emailjs
       .sendForm('service_0k8j4nk', 'template_19divvv', form.current, 'iQdVFLVPOshIQtjbN')
       .then(
-        (result) => {
-          console.log(result.text)
+        () => {
+          alert('Email sent sucessfully')
           window.location.reload(false)
         },
         (error) => {
-          console.log(error.text)
           alert('Failed to send the message, please try again')
         }
       )
@@ -80,7 +79,7 @@ const Contact = () => {
                   ></textarea>
                 </li>
                 <li>
-                  <input type="submit" className="flat-button" value="Send" />
+                  <input type="submit" className="flat-button" value="SEND" />
                 </li>
               </ul>
             </form>
@@ -99,7 +98,7 @@ const Contact = () => {
           <MapContainer center={[48.137154, 11.576124]} zoom={10}>
             <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
             <Marker position={[48.137154, 11.576124]}>
-              <Popup>Sloba lives here, come over for a cup of coffee :)</Popup>
+              <Popup>Max lives here, come over for a cup of coffee :)</Popup>
             </Marker>
           </MapContainer>
         </div>

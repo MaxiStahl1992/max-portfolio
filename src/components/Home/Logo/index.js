@@ -1,11 +1,9 @@
 import { useRef } from 'react'
-import LogoS from '../../../assets/images/logo-s.png'
 import Profile from '../../../assets/images/profile.png'
 import './index.scss'
 
 const Logo = () => {
   const bgRef = useRef()
-  const outlineLogoRef = useRef()
   const solidLogoRef = useRef()
 
   return (
