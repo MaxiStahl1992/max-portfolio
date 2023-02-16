@@ -47,7 +47,7 @@ const Contact = () => {
             I am interested in joining an established company and work on challenging IT projects.
             I love working on the Frontend, but I also have some experience on the Backend side, working with Spring Boot, Node.js and relational Databases
             <br/>
-            However, if you have any other requests or questions, don't hesitate to contact me!
+            If you'd like to receive my CV or any credentials feel free to contact me!
           </p>
           <div className="contact-form">
             <form ref={form} onSubmit={sendEmail}>
