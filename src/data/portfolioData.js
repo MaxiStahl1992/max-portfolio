@@ -1,30 +1,42 @@
 export const portfolioData = [
-    {
-        cover: "/portfolio/1/codex.png",
-        name: "Codex - Open AI Chat App",
-        description: "Vite - Vanilla JS - Open AI - Express - Node.js",
-        url: "https://codex-ai-plum.vercel.app/",
-        linkGit: "https://github.com/MaxiStahl1992/codex-ai"
-    },
-    {
-        cover: "/portfolio/1/Yariga.png",
-        name: "Yriga - A Real Estate App",
-        description: "MERN - MongoDB, Express, React, Node.js - A work in progress",
-        url: "https://refine-dashboard-max.netlify.app",
-        linkGit: "https://github.com/MaxiStahl1992/refine_dashboard"
-    },
-    {
-        cover: "/portfolio/1/Allianz.png",
-        name: "Allianz Project",
-        description: "Angular, Spring Boot (Kotlin), PostgreSQL",
-        url: "",
-        linkGit: ""
-    },
-    {
-        cover: "/portfolio/1/AlinaPortfolio.png",
-        name: "Alinas Portfolio",
-        description: "React",
-        url: "https://alinabuck.github.io/",
-        linkGit: "https://github.com/MaxiStahl1992/react_portfolio_alina"
-    },
-]
+	{
+		cover: "/portfolio/1/codex.png",
+		name: "Codex - Open AI Chat App",
+		description: "Vite - Vanilla JS - Open AI - Express - Node.js",
+		url: "https://codex-ai-plum.vercel.app/",
+		linkGit: "https://github.com/MaxiStahl1992/codex-ai",
+		text: "",
+	},
+	{
+		cover: "/portfolio/1/Yariga.png",
+		name: "Yriga - A Real Estate App",
+		description: "MERN - MongoDB, Express, React, Node.js - WORK IN PROGRESS",
+		url: "https://refine-dashboard-max.netlify.app",
+		linkGit: "https://github.com/MaxiStahl1992/refine_dashboard",
+		text: "",
+	},
+	{
+		cover: "/portfolio/1/Allianz.png",
+		name: "Allianz Project",
+		description: "Angular, Spring Boot, PostgreSQL",
+		url: "",
+		linkGit: "",
+		text: "I primarily concentrated on Angular frontend development, with a strong emphasis on optimizing user-friendliness. Moreover, I actively collaborated with UI/UX colleagues to make well-informed design choices, all while making the application highly accessible by strictly adhering to W3C guidelines.Collaborated on stages of systems development lifecycle from requirement gathering to production releases.Designed customized solutions for proposals to potential customers. Designed reusable and reliable code for use within distributed cloud environments.",
+	},
+	{
+		cover: "/portfolio/1/AlinaPortfolio.png",
+		name: "Alinas Portfolio",
+		description: "React",
+		url: "https://alinabuck.github.io/",
+		linkGit: "https://github.com/MaxiStahl1992/react_portfolio_alina",
+		text: "",
+	},
+	{
+		cover: "/portfolio/1/BayWa_Logo.svg.png",
+		name: "BayWa Projects",
+		description: "Angular, Spring Boot, Next.js, MySQL",
+		url: "",
+		linkGit: "",
+		text: "Revised, modularized and updated old code bases to modern development standards, reducing operating costs, and improving functionality.Discussed issues with team members to provide resolution and apply best practices.Collaborated with project managers to select ambitious, but realistic coding milestones on pre-release software project development. Coached Trainees in basic web development practices and technologies.",
+	},
+];
