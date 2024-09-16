@@ -65,7 +65,7 @@ const Home = () => {
               idx={22}
             />
           </h1>
-          <h2>Front End Developer / Fullstack Developer / Tech Enthusiast</h2>
+          <h2>Software Developer / AI Developer / Tech Enthusiast</h2>
           <Link to="/contact" className="flat-button">
             CONTACT ME
           </Link>
