@@ -33,7 +33,7 @@ const About = () => {
             />
           </h1>
           <p>
-            I'm a very ambitious front-end developer looking for a role in an
+            I'm a very ambitious software developer looking for a role in an
             established company with the opportunity to work with the latest
             technologies on challenging and diverse projects.
           </p>
